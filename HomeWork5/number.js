@@ -6,15 +6,8 @@ if(num[0] === num[1] && num[1] === num[2])
     console.log('Цифри різні');
 }
 
-if(num[0] === num[1] )
-{
-    console.log('є однакові цифри');
-}else if(num[0] === num[2])
-{
-    console.log('є однакові цифри');
-}else if(num[1] === num[2])
-{
-    console.log('є однакові цифри');
+if (num[0] === num[1] || num[0] === num[2] || num[1] === num[2]) {
+    console.log('Є однакові цифри');
 }else{
     console.log('нема однакових цифр');
 }
