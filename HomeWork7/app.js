@@ -1,5 +1,4 @@
-let year = prompt('input your year');
-parseInt(year);
+let year = parseInt(prompt('input your year'));
 let date = new Date();
 let nowYear = date.getFullYear();
 let age = nowYear - year;
