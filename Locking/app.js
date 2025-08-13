@@ -11,5 +11,6 @@ function number(){
     let sum = number();
 
     console.log(sum(4)); 
-    console.log(sum(7)); 
-    console.log(sum(12));
+    console.log(sum(6)); 
+    console.log(sum(10));
+    console.log(sum(7));
