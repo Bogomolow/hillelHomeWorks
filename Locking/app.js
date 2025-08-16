@@ -1,16 +1,12 @@
-function number(){
-    let f = 0;
-    
-    
-    return function(x){
-        
-        return f += x;
-        
-    }
-}   
-    let sum = number();
+let name = "6777323232";
+let count = 1;
 
-    console.log(sum(4)); 
-    console.log(sum(6)); 
-    console.log(sum(10));
-    console.log(sum(7));
+for(let i = 1; i < name.length; i++){
+    if(name[i] === name[i - 1]){
+        count++;
+    }
+    else{
+        count++;
+    }
+}
+console.log(count)

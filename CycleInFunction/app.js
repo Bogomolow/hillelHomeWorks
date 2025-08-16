@@ -1,14 +1,12 @@
-let digit;
-function num(){
 for( let i = 0; i < 10; i ++){
-    digit = parseInt(prompt('input your number'))
-    if(digit >= 100){
+    let digit = parseInt(prompt('input your number'));
+
+
+    if(digit > 100 || isNaN(digit) || digit === 9){
+        console.log(`user has entered ${digit}`);
         break;
-    }
-    else {
-        alert('Введи ще раз')
+    }else if (digit <= 100){
+        console.log("enter the correct number");
     }
 }
-return digit;
-}
-num();
+
