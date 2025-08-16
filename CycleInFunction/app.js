@@ -5,7 +5,7 @@ for( let i = 0; i < 10; i ++){
     if(digit > 100 || isNaN(digit) || digit === 9){
         console.log(`user has entered ${digit}`);
         break;
-    }else if (digit <= 100){
+    } else if (digit <= 100){
         console.log("enter the correct number");
     }
 }
