@@ -3,9 +3,9 @@ let users = {
     age: 18,
     placeOfResidence: "Kyiv",
 
-    Data: function () {
-        console.log(Object.entries(this))
+    loadData: function () {
+        console.log(`Name: ${users.name}, Age: ${users.age}, Place: ${users.placeOfResidence}`)
     }
 }
-users.Data();
+users.loadData();
 
