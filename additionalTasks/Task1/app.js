@@ -13,8 +13,8 @@ const books = [
 ];
 
 const programmes = books.filter((book) => book.genre === "programming")
-    console.log(programmes);
+console.log(programmes);
 const bookNames = books.map((book) => book.title)
-    console.log(bookNames)        
+console.log(bookNames)
 const sumPrice = books.reduce((sum, book) => sum + book.price, 0)
-    console.log(sumPrice);
+console.log(sumPrice);

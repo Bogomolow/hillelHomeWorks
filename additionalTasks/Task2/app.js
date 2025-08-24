@@ -8,16 +8,16 @@ const students = [
     { name: "Петя", grades: [3, 4, 4, 3] },
     { name: "Ира", grades: [5, 5, 5, 5] },
 ];
-    const f = students.map((student) => {
-        const sum = student.grades.reduce((count, value) => count + value, 0)
-        const average = sum / student.grades.length;
-        return{ name: student.name,  average: average}
-    }) 
-    console.log(f)
+const f = students.map((student) => {
+    const sum = student.grades.reduce((count, value) => count + value, 0)
+    const average = sum / student.grades.length;
+    return { name: student.name, average: average }
+})
+console.log(f)
 
-    const m = f.filter((student) => student.average < 4,5)
-        console.log(m)
-    
-    
-    
+const m = f.filter((student) => student.average < 4, 5)
+console.log(m)
+
+
+
 

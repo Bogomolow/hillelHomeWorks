@@ -8,7 +8,7 @@ const q = words.reduce((acc, word) => {
     if (!acc[newFirstLetter]) {
         acc[newFirstLetter] = []
     }
-        acc[newFirstLetter].push(word)
+    acc[newFirstLetter].push(word)
     return acc
 
 
