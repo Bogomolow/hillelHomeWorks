@@ -1,13 +1,13 @@
 const images = [
-    '1.jpg',
-    '2.jpg',
-    '3.jpg',
-    '4.jpg',
-    '5.jpg',
-    '6.jpg',
-    '7.jpg',
-    '8.jpg',
-    '9.jpg'
+    'Pictures/1.jpg',
+    'Pictures/2.jpg',
+    'Pictures/3.jpg',
+    'Pictures/4.jpg',
+    'Pictures/5.jpg',
+    'Pictures/6.jpg',
+    'Pictures/7.jpg',
+    'Pictures/8.jpg',
+    'Pictures/9.jpg'
 ];
 const pictures = document.getElementById('src')
 function generatePicture() {
