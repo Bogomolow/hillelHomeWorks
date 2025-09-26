@@ -98,3 +98,7 @@ student3.absent();
 console.log(student3.array);
 console.log(`Average: ${student3.summary()}`);
 
+
+
+
+
