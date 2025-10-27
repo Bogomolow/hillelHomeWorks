@@ -19,5 +19,5 @@ const young = books.reduce((youngYear, book) => {
     }
     return book;
 })
-console.log(`Найстаріша книга ${old.title},  Рік:${old.year}`)
-console.log(`Найновіша книга ${young.title}, Рік:${young.year}`)
+console.log(`Найстаріша книга ${old.title},  Рік: ${old.year}`)
+console.log(`Найновіша книга ${young.title}, Рік: ${young.year}`)
