@@ -1,0 +1,25 @@
+.user-card {
+  background: linear-gradient(135deg, #f0f4ff, #dce3ff);
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-top: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.user-card h2 {
+  margin: 8px 0;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.user-card h2:first-child {
+  color: #1a237e;
+}
